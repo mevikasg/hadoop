@@ -1,0 +1,21 @@
+
+1. Create repo at webconsole.
+2. Set your user name and email.
+
+	git config --global user.name "mevikasg"
+	git config --global user.email "addmeaddme06@gmail.com"
+	
+3. Open Git shell.
+4. Go to path where you want to create the directory at your local machine.
+5. Setup directory at local 
+   git clone https://github.com/mevikasg/hadoop.git	
+6. Add Repo at remote (one time only)	
+	git remote add origin https://github.com/mevikasg/hadoop.git
+	
+7. Add file/folder at the local directory
+8. get status - it will show files/folder not added
+9. git add .    (it will add all files folder at repo (root directory) )
+10. git status  (it qill how the files are added and are tracked.)
+11. git commit -m "Meesage"
+12. git push 		
+13. git pull or pull origin master   (to get the files added by other users).
