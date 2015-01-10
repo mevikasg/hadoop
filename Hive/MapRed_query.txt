@@ -1,0 +1,9 @@
+Change the date range accordingly....
+
+hive -e "SET mapred.job.queue.name=hbase; select a.user_id,a.user_count from ( select user_id as user_id, count(user_id) as user_count from adut where dt between '20140910' and '20140912' group by user_id )a order by a.user_count desc;" > output20140912
+
+cmdownload_atp  373208
+asupNextPerf    363254
+nishantp        77283
+atp_new 10980
+jordanh 5373

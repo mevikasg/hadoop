@@ -1,0 +1,10 @@
+Create a Cassandra table
+Import data
+Create a search index
+Exploring the Solr Admin
+Running a simple search
+Running a faceted search
+Solr HTTP API tutorial
+
+
+http://www.datastax.com/documentation/datastax_enterprise/4.0/datastax_enterprise/srch/srchIntro.html
