@@ -1,0 +1,22 @@
+
+delete column from table
+delete 'tablename', 'rowkey', 'column'
+
+delete entire row
+delete 'tablename', 'rowkey'
+
+delete all rows
+truncate 'tablename'
+
+delete table
+drop 'tablename'
+
+
+Administration Tools:
+
+help 'tools'
+
+1. major_compact - compaction of a table.
+2. flush
+    region servers flush the memstore for a table.
+
